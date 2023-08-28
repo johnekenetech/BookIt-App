@@ -4,15 +4,14 @@
     box-sizing: border-box ;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-body {
-    height: 700px;
-}
+
 #container {
     border: 1px solid grey;
     border-radius: 10px;
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 #page-banner {
@@ -20,6 +19,8 @@ body {
     background-color: rgb(218, 218, 218);
     opacity: 60%;
     font-weight: bold;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 #page-banner h1 {
     padding: 1rem 0 0.5rem 0 ;
@@ -107,6 +108,9 @@ body {
     #page-banner input {
         padding: 0.5rem 8rem 0.5rem 0.5rem;
     }
+    #container {
+        width: 95%;
+    }
 }
 @media screen and (max-width:1022px) {
     .name {
@@ -123,6 +127,9 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    #container {
+        width: 95%;
     }
     .name {
         font-size: 16px;
@@ -142,6 +149,9 @@ body {
     #page-banner h1 {
         font-size: 22px;
     }
+    #container {
+        width: 95%;
+    }
 }
 @media screen and (max-width:580px) {
     #add-book input {
@@ -151,11 +161,17 @@ body {
     #add-book button {
         padding: 0.3rem 1rem;
     }
+    #container {
+        width: 95%;
+    }
 }
 
 @media screen and (max-width:525px) {
     #page-banner input {
         padding: 0.2rem 1rem 0.2rem 0.5rem;
+    }
+    #container {
+        width: 95%;
     }
 }
 @media screen and (max-width:430px) {
@@ -164,6 +180,9 @@ body {
     }
     #add-book input {
         width: 145px;
+    }
+    #container {
+        width: 95%;
     }
 }
 @media screen and (max-width:420px) {
@@ -178,10 +197,16 @@ body {
     #book-list h2 {
         font-size: 16px;
     }
+    #container {
+        width: 95%;
+    }
 }
 @media screen and (max-width: 468px) {
     #book-list h2 {
         font-size: 20px;
+    }
+    #container {
+        width: 95%;
     }
 }
 @media screen and (max-width:330px) {
@@ -198,5 +223,8 @@ body {
     }
     #add-book input {
         width: 100px;
+    }
+    #container {
+        width: 95%;
     }
 }
