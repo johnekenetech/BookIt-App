@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dom.js" defer></script>
+</head>
+<body>
+
+    <div id="container">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">&#x1F4D6;Book It! App</h1>
+                <p>What book are you reading today?</p>
+                <form id="search-books">
+                    <input type="text" placeholder="Search books...">
+                </form>
+            </div>
+        </header>
+
+        <div id="book-list">
+            <h2 class="title">Books to Read</h2>
+            <ul>
+                <li>
+                    <span class="name span-one">Book title : The falsely accused.</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name span-two">Book title : Home runner.</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name span-three">Book title : Choices make you.</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+
+        <form id="add-book">
+            <div>
+            <input type="checkbox" id="hide">
+                <label for="hide">Hide all books</label>
+            </div>
+            <input type="text" placeholder="Add a book...">
+            <button>Add</button>
+        </form>
+    </div>
+
+</body>
+</html>
