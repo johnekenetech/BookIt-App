@@ -10,8 +10,8 @@
     border-radius: 10px;
     width: 90%;
     margin: 0 auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #page-banner {
@@ -39,6 +39,7 @@
 #book-list h2 {
     padding: 2rem;
     opacity: 60%;
+    text-align: center;
 }
 #book-list ul {
     list-style: none;
@@ -52,6 +53,7 @@
     width: 80%;
     font-weight: bold;
     opacity: 70%;
+    font-size: 18px;
 }
 #book-list .name {
     border-bottom: 3px solid rgb(218, 215, 215);
@@ -112,16 +114,7 @@
         width: 95%;
     }
 }
-@media screen and (max-width:1022px) {
-    .name {
-        font-size: 15px;
-        font-weight: bold;
-    }
-    .delete {
-        font-size: 15px;
-        font-weight: bold;
-    }
-}
+
 @media screen and (max-width:761px) {
     #book-list ul li {
         display: flex;
@@ -132,7 +125,7 @@
         width: 95%;
     }
     .name {
-        font-size: 16px;
+        font-size: 18px;
     }
     .delete {
         margin-top: 10px;
@@ -152,6 +145,7 @@
     #container {
         width: 95%;
     }
+    
 }
 @media screen and (max-width:580px) {
     #add-book input {
@@ -194,19 +188,19 @@
         width: 150px;
         text-align: center;
     }
-    #book-list h2 {
-        font-size: 16px;
-    }
     #container {
         width: 95%;
     }
 }
 @media screen and (max-width: 468px) {
-    #book-list h2 {
-        font-size: 20px;
-    }
     #container {
         width: 95%;
+    }
+    .name {
+        font-size: 15px;
+    }
+    .delete {
+        font-size: 15px;
     }
 }
 @media screen and (max-width:330px) {
